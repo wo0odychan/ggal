@@ -1,0 +1,8 @@
+@mixin res($s) {
+    @if($s==s) {
+        @media(max-width:768px) {
+            @content;
+        }
+    }
+
+}
